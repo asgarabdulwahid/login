@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Welcome To Login Form</title>
+  </head>
+<body background="bg.jpg">
+<style>
+		body{
+			text-align: center;
+			font-family: Arial;
+			
+
+		}
+		
+	</style>
+	<body>
+	
+	<div id="main">
+	<div class="h-tag">
+<br>
+<br>
+<br>
+<br>
+<hr style="border-color: black">
+<hr style="border-color: black">
+	<h2>Login Form</h2>
+	</div>
+<hr style="border-color: black">
+<hr style="border-color: black">
+	<div class="login">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+	<tr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form name="login">
+	<td> Enter User Name :</td>
+	<td><input type="text" placeholder="Enter user name here" id="user" class="tb" /></td>
+	</tr>
+	<tr>
+	<td>Enter Password :</td>
+	<td><input type="password" placeholder="Enter Password here" id="pass" class="tb" /></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+
+	<input type="button" onclick="check(this.form)" value="Login"/></td>
+
+	</tr>
+	</table>
+	</div>
+  
+	</div>
+	<br>
+<br>
+<br>
+</form>
+<script>
+function check(form)
+{
+if(form.user.value == "abdul" && form.pass.value == "asgar")
+ {
+alert("You have successfully logged in")
+}
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+</script>
+
+    <hr style="border-color: black">
+<hr style="border-color: black">
+<h1> Asgar, Abdulwahid BSIT-3B</h1>
+<p style = "color: black; font-size: 15px">
+USERNAME: abdul <br>
+PASSWORD: asgar
+</p>
+  </body>
+  </html>
+  
